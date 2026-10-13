@@ -39,8 +39,8 @@ import seaborn as sns
 import squarify
 
 # --- 1. CHARGEMENT ET PRÉREQUIS TEMPORELS ---
-# Chargement du dataset (adapter le chemin selon ton environnement)
-# Sales = pd.read_csv('sales_2 (1).csv')
+# Chargement du dataset
+Sales = pd.read_csv('sales_2.csv')
 
 Sales['OrderDate'] = pd.to_datetime(Sales['OrderDate'])
 
